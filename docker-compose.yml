@@ -1,0 +1,7 @@
+services:
+  alpine:
+    build:
+      context: host-connect
+    tty: true
+    ports:
+      - "8000:8000"

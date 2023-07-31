@@ -1,0 +1,7 @@
+On your host, run:
+
+	python -m http.server
+
+You should be able to connect to it from your container via:
+
+	telnet host.docker.internal 8000
